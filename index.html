@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+</head>
+<body>
+    <h1>Student Filter & Search</h1>
+    <div class="ontainer">
+        <input type="text" id="searchName" placeholder="Enter studen name">
+        <button onclick="searchStudent()">Search</button>
+        <div class="result" id="searchResult"></div>
+        
+        <h2>Filter Students with Marks> 40</h2>
+        <button onclick="filterPassed()">Show passed Students</button>
+        <div class="result" id="ilterResult"></div>
+
+        <h2>Find First Failed Student</h2>
+        <button onclick="findFailed()">Find Failed Student</button>
+        <div class="result" id="failedResult"></div>
+    </div>
+    
+</body>
+</html>
